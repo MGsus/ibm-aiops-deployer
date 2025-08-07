@@ -77,6 +77,7 @@
     - " IBM Concert project_operator:           {{current_feature.project_operator}}"
     - " IBM Concert project_instance:           {{current_feature.project_instance}}"
     - " IBM Concert docker_exe:                 {{current_feature.docker_exe}}"
+    - " IBM Concert version:                    {{current_feature.service_version}}"
     - ""
     verbosity: 1
   
