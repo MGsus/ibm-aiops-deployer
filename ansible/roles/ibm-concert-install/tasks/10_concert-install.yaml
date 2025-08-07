@@ -129,6 +129,7 @@
     echo "export PROD_USER={{current_feature.prod_user}}"
     echo "export PRIVATE_REGISTRY_LOCATION={{current_feature.private_registry_location}}"
     echo "export DOCKER_EXE=podman"
+    echo "export SERVICE_VERSION={{current_feature.service_version}}"
     echo "export WORK_DIR=$(pwd)"
     echo "export PROJECT_OPERATOR={{current_feature.project_operator}} "
     echo "export PROJECT_INSTANCE={{current_feature.project_instance}}"
@@ -167,7 +168,8 @@
     export PROD_REGISTRY={{current_feature.prod_registry}}
     export PROD_USER={{current_feature.prod_user}}
     export PRIVATE_REGISTRY_LOCATION={{current_feature.private_registry_location}}
-    export DOCKER_EXE=podman 
+    export DOCKER_EXE=podman
+    export SERVICE_VERSION={{current_feature.service_version}}
     export WORK_DIR=$(pwd)
     export PROJECT_OPERATOR={{current_feature.project_operator}} 
     export PROJECT_INSTANCE={{current_feature.project_instance}}
@@ -302,7 +304,8 @@
     export PROD_REGISTRY={{current_feature.prod_registry}}
     export PROD_USER={{current_feature.prod_user}}
     export PRIVATE_REGISTRY_LOCATION={{current_feature.private_registry_location}}
-    export DOCKER_EXE=podman 
+    export DOCKER_EXE=podman
+    export SERVICE_VERSION={{current_feature.service_version}}
     export WORK_DIR=$(pwd)
     export PROJECT_OPERATOR={{current_feature.project_operator}} 
     export PROJECT_INSTANCE={{current_feature.project_instance}}
@@ -356,7 +359,8 @@
     export PROD_REGISTRY={{current_feature.prod_registry}}
     export PROD_USER={{current_feature.prod_user}}
     export PRIVATE_REGISTRY_LOCATION={{current_feature.private_registry_location}}
-    export DOCKER_EXE=podman 
+    export DOCKER_EXE=podman
+    export SERVICE_VERSION={{current_feature.service_version}}
     export WORK_DIR=$(pwd)
     export PROJECT_OPERATOR={{current_feature.project_operator}} 
     export PROJECT_INSTANCE={{current_feature.project_instance}}
